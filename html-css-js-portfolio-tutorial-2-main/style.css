@@ -184,7 +184,9 @@ section {
 .section__pic-container img {
   width: 300px;
   height: 300px;
+  border: 3px solid #58a6ff;
   border-radius: 50%;
+
 }
 
 .section__text {
@@ -220,12 +222,19 @@ section {
   gap: 1rem;
 }
 
+#socials-container img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1.5px solid #ffffff;
+}
+
 /* ICONS */
 
 .icon {
   cursor: pointer;
   height: 4rem;
-  
+  color: #ffffff; 
 }
 
 /* BUTTONS */
@@ -357,7 +366,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: center;
+  justify-content: left;
 }
 
 article {
@@ -369,7 +378,9 @@ article {
 
 article .icon {
   cursor: default;
+
 }
+
 
 /* PROJECTS SECTION */
 
@@ -416,27 +427,30 @@ article .icon {
   background: #161b22;
   margin: 2rem auto;
   padding: 0.5rem;
+  
 }
 
 .contact-info-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
   margin: 1rem;
 }
 
 .contact-info-container p {
   font-size: larger;
   color: #c9d1d9;
+  
 }
-
+ 
 .contact-icon {
   cursor: default;
 }
 
 .email-icon {
-  height: 2.5rem;
+  height: 4rem;
+  color:#ffffff;
 }
 
 /* FOOTER SECTION */
