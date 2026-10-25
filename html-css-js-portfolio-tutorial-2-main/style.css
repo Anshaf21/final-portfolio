@@ -154,7 +154,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 3vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -170,8 +170,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 4rem;
-  height: 80vh;
+  gap: 1rem;
+  height: 83vh;
 }
 
 .section__pic-container {
@@ -182,8 +182,10 @@ section {
 }
 
 .section__pic-container img {
-  width: 300px;
-  height: 300px;
+  content-justify: center;
+  margin-top: 12px;
+  width: 250px;
+  height: 250px;
   border: 3px solid #58a6ff;
   border-radius: 50%;
 
@@ -219,7 +221,7 @@ section {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  gap: 1rem;
+  gap: 5rem;
 }
 
 #socials-container img{
@@ -320,6 +322,7 @@ section {
   right: -5rem;
   bottom: 2.5rem;
 }
+
 
 .details-container {
   padding: 1.5rem;
